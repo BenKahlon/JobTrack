@@ -1,4 +1,4 @@
-# JobTrack — Architecture
+# JobTrack - Architecture
 
 ## 1. Purpose
 
