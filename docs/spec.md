@@ -1,4 +1,4 @@
-# JobTrack — Product Specification
+# JobTrack - Product Specification
 
 ## 1. Product Overview
 
