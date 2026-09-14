@@ -1,4 +1,4 @@
-# JobTrack — Database Design
+# JobTrack - Database Design
 
 ## 1. Purpose
 
