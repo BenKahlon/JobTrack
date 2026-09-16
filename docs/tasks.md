@@ -10,11 +10,11 @@ Tasks are organized in implementation order so the project can be built, tested,
 
 ## Phase 1 - Frontend Project Setup
 
-- [ ] Create React + TypeScript project
-- [ ] Create initial project folder structure
-- [ ] Run the application locally
-- [ ] Remove unnecessary starter code
-- [ ] Verify the project builds successfully
+- [x] Create React + TypeScript project
+- [x] Create initial project folder structure
+- [x] Run the application locally
+- [x] Remove unnecessary starter code
+- [x] Verify the project builds successfully
 
 ---
 
