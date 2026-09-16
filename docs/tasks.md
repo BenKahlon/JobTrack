@@ -20,12 +20,12 @@ Tasks are organized in implementation order so the project can be built, tested,
 
 ## Phase 2 - Domain Model
 
-- [ ] Create the JobApplication model
-- [ ] Define the application status values
-- [ ] Add required application fields
-- [ ] Add optional interview fields
-- [ ] Add waitingStartedAt
-- [ ] Verify the model matches the project specification
+- [x] Create JobApplication model
+- [x] Define application status values
+- [x] Add required application fields
+- [x] Add optional interview fields
+- [x] Add waitingStartedAt
+- [x] Verify model matches spec
 
 ---
 
