@@ -158,6 +158,36 @@ This separation makes the code easier to understand, test, maintain, and extend.
 
 This structure will make it easier to replace localStorage with backend API communication without rebuilding the entire user interface.
 
+## Decision 9 - Generate MVP Application IDs in the Service
+
+### Decision
+
+The Service will generate a numeric ID for each new job application using `Date.now()`.
+
+The Repository will receive a complete `JobApplication` with an existing ID and will only be responsible for storing it.
+
+### Reason
+
+The initial MVP runs locally for a single user and does not use a backend or database.
+
+Using `Date.now()` provides a simple numeric ID suitable for the MVP while keeping ID generation outside the UI and Repository.
+
+When the application moves to ASP.NET Core and PostgreSQL, ID generation may move to the backend or database.
+
+## Decision 10 - Use Vitest for Unit Testing
+
+### Decision
+
+Vitest will be used as the unit testing framework for the frontend.
+
+### Reason
+
+The frontend uses Vite, React, and TypeScript.
+
+Vitest integrates well with the existing Vite setup and will be used to test repository behavior and business logic.
+
+Automated tests will help verify existing behavior and detect regressions when the code changes.
+
 ---
 
 ## Version
